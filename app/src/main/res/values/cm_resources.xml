@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        1、核心通用基础库中内容禁止修改
+        2、为通用基础库中的资源ID和上层模块中定义的资源ID重复，产生Duplicate resources错误，所有出现在基础库中的资源都必须以前缀：cm_ 开头。
+        3、通用模块中的资源命名方式采用：
+                xml 中采用：cm_功能模块_[子模块]_文件名称 , 例如：
+                java代码中如xml中类似，驼峰命名            例如：
+    -->
+
+    <!-- start color drawable -->
+    <drawable name="cm_color_0_red">#FF0000</drawable>
+    <drawable name="cm_color_1_white">#FFFFFF</drawable>
+    <drawable name="cm_color_2_black">#000000</drawable>
+    <drawable name="cm_color_3_green">#00FF00</drawable>
+    <drawable name="cm_color_4_yellow">#FFFF00</drawable>
+    <drawable name="cm_color_5_blue">#0000FF</drawable>
+    <drawable name="cm_color_6_purple">#800080</drawable>
+    <drawable name="cm_color_7_gray">#808080</drawable>
+    <drawable name="cm_color_8_brown">#A52A2A</drawable>
+    <drawable name="cm_color_9_olive_drab">#556B2F</drawable>
+    <drawable name="cm_color_10_cyan">#00FFFF</drawable>
+    <drawable name="cm_color_11_orange">#FFA500</drawable>
+    <drawable name="cm_color_12_gold">#FFD700</drawable>
+    <drawable name="cm_color_13_saddle_brown">#8B4513</drawable>
+    <drawable name="cm_color_14_deep_sky_blue">#00BFFF</drawable>
+    <drawable name="cm_color_15_magenta">#FF00FF</drawable>
+    <drawable name="cm_color_16_dark_green">#006400</drawable>
+    <drawable name="cm_color_17_navy">#000080</drawable>
+    <drawable name="cm_color_18_violet">#EE82EE</drawable>
+    <drawable name="cm_color_19_pink">#FFC0CB</drawable>
+    <!-- end color drawable -->
+
+
+    <!-- start color -->
+    <color name="cm_color_0_red">#FF0000</color>
+    <color name="cm_color_1_white">#FFFFFF</color>
+    <color name="cm_color_2_black">#000000</color>
+    <color name="cm_color_3_green">#00FF00</color>
+    <color name="cm_color_4_yellow">#FFFF00</color>
+    <color name="cm_color_5_blue">#0000FF</color>
+    <color name="cm_color_6_purple">#800080</color>
+    <color name="cm_color_7_gray">#808080</color>
+    <color name="cm_color_8_brown">#A52A2A</color>
+    <color name="cm_color_9_olive_drab">#556B2F</color>
+    <color name="cm_color_10_cyan">#00FFFF</color>
+    <color name="cm_color_11_orange">#FFA500</color>
+    <color name="cm_color_12_gold">#FFD700</color>
+    <color name="cm_color_13_saddle_brown">#8B4513</color>
+    <color name="cm_color_14_deep_sky_blue">#00BFFF</color>
+    <color name="cm_color_15_magenta">#FF00FF</color>
+    <color name="cm_color_16_dark_green">#006400</color>
+    <color name="cm_color_17_navy">#000080</color>
+    <color name="cm_color_18_violet">#EE82EE</color>
+    <color name="cm_color_19_pink">#FFC0CB</color>
+    <!-- end color -->
+
+    <!-- start dimens-->
+    <dimen name="cm_dp_0">0dp</dimen>
+    <dimen name="cm_dp_1">1dp</dimen>
+    <dimen name="cm_dp_2">2dp</dimen>
+    <dimen name="cm_dp_3">3dp</dimen>
+    <dimen name="cm_dp_4">4dp</dimen>
+    <dimen name="cm_dp_5">5dp</dimen>
+    <dimen name="cm_dp_6">6dp</dimen>
+    <dimen name="cm_dp_7">7dp</dimen>
+    <dimen name="cm_dp_8">8dp</dimen>
+    <dimen name="cm_dp_9">9dp</dimen>
+    <dimen name="cm_dp_10">10dp</dimen>
+    <dimen name="cm_dp_11">11dp</dimen>
+    <dimen name="cm_dp_12">12dp</dimen>
+    <dimen name="cm_dp_13">13dp</dimen>
+    <dimen name="cm_dp_14">14dp</dimen>
+    <dimen name="cm_dp_15">15dp</dimen>
+    <dimen name="cm_dp_16">16dp</dimen>
+    <dimen name="cm_dp_17">17dp</dimen>
+    <dimen name="cm_dp_18">18dp</dimen>
+    <dimen name="cm_dp_19">18dp</dimen>
+    <dimen name="cm_dp_20">20dp</dimen>
+    <dimen name="cm_dp_21">21dp</dimen>
+    <dimen name="cm_dp_22">22dp</dimen>
+    <dimen name="cm_dp_23">23dp</dimen>
+    <dimen name="cm_dp_24">24dp</dimen>
+    <dimen name="cm_dp_25">25dp</dimen>
+    <dimen name="cm_dp_30">30dp</dimen>
+
+
+    <dimen name="cm_sp_0">0sp</dimen>
+    <dimen name="cm_sp_1">1sp</dimen>
+    <dimen name="cm_sp_2">2sp</dimen>
+    <dimen name="cm_sp_3">3sp</dimen>
+    <dimen name="cm_sp_4">4sp</dimen>
+    <dimen name="cm_sp_5">5sp</dimen>
+    <dimen name="cm_sp_6">6sp</dimen>
+    <dimen name="cm_sp_7">7sp</dimen>
+    <dimen name="cm_sp_8">8sp</dimen>
+    <dimen name="cm_sp_9">9sp</dimen>
+    <dimen name="cm_sp_10">10sp</dimen>
+    <dimen name="cm_sp_11">11sp</dimen>
+    <dimen name="cm_sp_12">12sp</dimen>
+    <dimen name="cm_sp_13">13sp</dimen>
+    <dimen name="cm_sp_14">14sp</dimen>
+    <dimen name="cm_sp_15">15sp</dimen>
+    <dimen name="cm_sp_16">16sp</dimen>
+    <dimen name="cm_sp_17">17sp</dimen>
+    <dimen name="cm_sp_18">18sp</dimen>
+    <dimen name="cm_sp_19">18sp</dimen>
+    <dimen name="cm_sp_20">20sp</dimen>
+    <dimen name="cm_sp_21">21sp</dimen>
+    <dimen name="cm_sp_22">22sp</dimen>
+    <dimen name="cm_sp_23">23sp</dimen>
+    <dimen name="cm_sp_24">24sp</dimen>
+    <dimen name="cm_sp_25">25sp</dimen>
+    <dimen name="cm_sp_30">30sp</dimen>
+
+    <!-- end dimens-->
+
+
+    <!-- start strings-->
+
+    <!-- end strings-->
+
+
+    <!-- start string array-->
+
+    <!-- end string array-->
+
+
+    <!-- start styles-->
+
+    <!-- end styles-->
+
+
+    <!-- start ids-->
+
+    <!-- end ids-->
+
+
+    <!-- start bool-->
+
+    <!-- end bool-->
+
+
+    <!-- start integer-->
+
+    <!-- end integer-->
+
+
+    <!-- start integer array-->
+
+    <!-- end integer array-->
+
+
+    <!-- start typed array-->
+
+    <!-- end typed array-->
+
+
+    <!-- start attrs -->
+
+    <!-- end attrs -->
+
+</resources>
