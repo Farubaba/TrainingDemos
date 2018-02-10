@@ -4,7 +4,12 @@ android {
     compileSdkVersion 26
     defaultConfig {
         applicationId "com.android.training"
+        /**支持到17已经可以支持目前96%以上的设备了，并且可以解决webview的javascript漏洞**/
         minSdkVersion 17
+        /**
+         * 始终使用最新版本，以获得android最新的运行时特性，但是app必须在指定targeSdkVersion版本进行测试通过
+         * https://developer.android.com/develop/quality-guidelines/building-for-billions-device-capacity.html#screens
+         */
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -16,6 +21,11 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+    lintOptions {
+        disable 'ValidFragment'
+        abortOnError false
+    }
 }
 
 dependencies {
@@ -26,3 +36,9 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
 }
+
+/**
+ * 相关参考链接：
+ * https://developer.android.com/develop/quality-guidelines/building-for-billions-device-capacity.html#screens
+ *
+ */
