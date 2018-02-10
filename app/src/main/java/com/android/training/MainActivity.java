@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.cm_activity_main);
         Button button1 = findViewById(R.id.button1);
 
         onClickListener = new View.OnClickListener(){

@@ -2,7 +2,6 @@ package com.android.training;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.view.LayoutInflaterCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -31,7 +30,7 @@ public class FocusAndClick extends AppCompatActivity implements View.OnClickList
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        View contentView = LayoutInflater.from(this).inflate(R.layout.act_focus_click,null);
+        View contentView = LayoutInflater.from(this).inflate(R.layout.cm_act_focus_click,null);
         setContentView(contentView);
 
         button1 = findViewById(R.id.button1);

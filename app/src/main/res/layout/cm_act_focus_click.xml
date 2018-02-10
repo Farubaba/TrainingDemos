@@ -14,7 +14,7 @@
             android:id="@+id/left_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="@drawable/templat_selector"
+            android:background="@drawable/cm_code_templet_statelist"
             android:layout_alignParentLeft="true"
             android:contentDescription="left button"/>
         <Button
@@ -23,13 +23,13 @@
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
             android:contentDescription="right button"
-            android:background="@drawable/templat_selector"/>
+            android:background="@drawable/cm_code_templet_statelist"/>
     </RelativeLayout>
     <Button
         android:id="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/selector_button1_pressed"
+        android:background="@drawable/cm_selector_button1_pressed"
         android:clickable="true"
         android:focusable="true"
         android:text="Button1 clickable=true"/>
@@ -38,27 +38,27 @@
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/selector_button2_focusd"
+        android:background="@drawable/cm_selector_button2_focusd"
         android:text="Button2 clickable=true set onclickListener"/>
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/selector_button3_checked"
+        android:background="@drawable/cm_selector_button3_checked"
         android:text="Button3"/>
 
     <Button
         android:id="@+id/button4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/selector_button4_selected"
+        android:background="@drawable/cm_selector_button4_selected"
         android:text="Button4"/>
 
     <Button
         android:id="@+id/button5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/selector_button5_enabled"
+        android:background="@drawable/cm_selector_button5_enabled"
         android:text="Button5"/>
 </LinearLayout>
