@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="cm_templet_main" type="layout">@layout/cm_templet_main_topanels</item>
+    <bool name="has_two_panels">true</bool>
+</resources>
