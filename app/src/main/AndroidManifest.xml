@@ -2,7 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="com.android.training">
 
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"></uses-permission>
+    <uses-permission-sdk-23 android:name="android.permission.READ_PHONE_STATE"></uses-permission-sdk-23>
+
     <application
+        android:name=".app.MobileApplication"
         android:allowBackup="true"
         android:icon="@mipmap/cm_ic_launcher"
         android:label="@string/app_name"
@@ -16,7 +20,13 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".FocusAndClick"/>
+        <activity android:name=".FocusAndClick"
+            android:process=":private_process"/>
+        <activity android:name=".ConstraintLayoutTest"
+            android:process="com.test.global_process">
+        </activity>
+        <activity android:name=".ProcessActivity">
+        </activity>
     </application>
 
 </manifest>

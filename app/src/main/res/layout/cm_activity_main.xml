@@ -40,6 +40,33 @@
             android:layout_height="wrap_content"
             android:text="Button3"/>
 
+
+        <ImageButton
+            android:id="@+id/imageButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="imageButton1"
+            android:tint="@color/cm_color_16_dark_green"
+            app:srcCompat="@drawable/ic_transfer_within_a_station_black_24dp"/>
+
+        <ImageButton
+            android:id="@+id/imageButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cm_code_templet_statelist"
+            android:text="imageButton2"
+            android:tint="#FF9900"
+            android:tintMode="src_in"
+            app:srcCompat="@drawable/animator_v"/>
+
+        <ImageButton
+            android:id="@+id/imageButton3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="imageButton3"
+            android:tint="@color/colorAccent"
+            app:srcCompat="@drawable/ic_build_black_24dp"/>
+
         <Button
             android:id="@+id/button4"
             android:layout_width="match_parent"

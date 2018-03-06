@@ -33,8 +33,8 @@
 
 
     <!-- start color -->
-    <color name="cm_color_0_red">#FF0000</color>
-    <color name="cm_color_1_white">#FFFFFF</color>
+    <color name="cm_color_0_red">#ff0000</color>
+    <color name="cm_color_1_white">#ffffff</color>
     <color name="cm_color_2_black">#000000</color>
     <color name="cm_color_3_green">#00FF00</color>
     <color name="cm_color_4_yellow">#FFFF00</color>
@@ -44,9 +44,9 @@
     <color name="cm_color_8_brown">#A52A2A</color>
     <color name="cm_color_9_olive_drab">#556B2F</color>
     <color name="cm_color_10_cyan">#00FFFF</color>
-    <color name="cm_color_11_orange">#FFA500</color>
+    <color name="cm_color_11_orange">#ffa500</color>
     <color name="cm_color_12_gold">#FFD700</color>
-    <color name="cm_color_13_saddle_brown">#8B4513</color>
+    <color name="cm_color_13_saddle_brown">#8b4513</color>
     <color name="cm_color_14_deep_sky_blue">#00BFFF</color>
     <color name="cm_color_15_magenta">#FF00FF</color>
     <color name="cm_color_16_dark_green">#006400</color>

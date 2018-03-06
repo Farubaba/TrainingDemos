@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.training.ConstraintLayoutTest">
+    <!--<android.support.constraint.Barrier-->
+        <!--android:id="@+id/barrier"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:barrierDirection="start"-->
+        <!--app:constraint_referenced_ids="button1,button2" />-->
+
+    <!--<android.support.constraint.Guideline-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_height="100dp"-->
+        <!--android:id="@+id/guideline"-->
+        <!--app:layout_constraintGuide_begin="100dp"-->
+        <!--android:orientation="horizontal"/>-->
+    <!--<Button android:id="@+id/button1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:background="#996633"-->
+            <!--app:layout_constraintDimensionRatio="1:2" />-->
+
+    <!--<Button android:id="@+id/button2"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="0dp"-->
+            <!--app:layout_constraintDimensionRatio="H,2:1"-->
+            <!--android:background="#996633"-->
+            <!--app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--android:text="constraint H , 16: 9"-->
+            <!--app:layout_constraintTop_toTopOf="parent"/>-->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="105dp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="134dp"/>
+</android.support.constraint.ConstraintLayout>

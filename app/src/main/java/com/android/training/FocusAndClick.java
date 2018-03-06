@@ -1,14 +1,19 @@
 package com.android.training;
 
 import android.os.Bundle;
+import android.support.annotation.IntDef;
 import android.support.annotation.Nullable;
+import android.support.v4.view.MotionEventCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewTreeObserver;
 import android.view.ViewTreeObserver.OnWindowFocusChangeListener;
 import android.widget.Button;
+
+import com.android.training.intdef.MotionEventDef;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -59,8 +64,10 @@ public class FocusAndClick extends AppCompatActivity implements View.OnClickList
         buttonRight.isSelected();
 
         buttonRight.isActivated();
-        buttonRight.isAccessibilityFocused();
-        buttonRight.isAttachedToWindow();
+        //api 21
+        //buttonRight.isAccessibilityFocused();
+        //api 19
+        //buttonRight.isAttachedToWindow();
         buttonRight.isCursorVisible();
         buttonRight.isDirty();
         buttonRight.isDrawingCacheEnabled();
@@ -82,6 +89,7 @@ public class FocusAndClick extends AppCompatActivity implements View.OnClickList
 
         ViewTreeObserver viewTreeObserver = contentView.getRootView().getViewTreeObserver();
         viewTreeObserver.addOnGlobalFocusChangeListener(this);
+        //api 18
         viewTreeObserver.addOnWindowFocusChangeListener(this);
 
     }
@@ -93,6 +101,11 @@ public class FocusAndClick extends AppCompatActivity implements View.OnClickList
         }
     }
 
+
+    public void setMotionEvent(@MotionEventDef int motionEvent){
+
+    }
+
     @Override
     public void onClick(View view) {
         switch (view.getId()){
@@ -101,6 +114,7 @@ public class FocusAndClick extends AppCompatActivity implements View.OnClickList
                 button2.requestFocus();
                 break;
             case R.id.button2:
+                setMotionEvent(MotionEvent.ACTION_DOWN);
                 break;
             case R.id.button3:
                 break;
